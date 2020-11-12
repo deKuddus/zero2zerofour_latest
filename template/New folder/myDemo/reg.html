@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>REGISTRATION</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+	<!-- navigation -->
+	<section id="nav-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="icons">
+						<ul>
+							<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href=""><i class="fab fa-twitter"></i></a></li>
+							<li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href=""><i class="fab fa-youtube"></i></a></li>
+							<li><a href=""><i class="fab fa-pinterest"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="nav">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="logo">
+						<a href="home.html">
+							<img src="img/logo.png" height="105px" alt="" />
+						</a>
+
+					</div>
+				</div>
+				<div class="col-lg-8">
+					<nav class="menu">
+						<ul>
+							<li><a href="home.html">HOME</a></li>
+							<li><a href="about.html">ABOUT US</a></li>
+							<li><a href="news.html">NEWS</a></li>
+							<li><a href="merchandise.html">MERCHANDISE</a></li>
+							<li><a href="events.html">EVENTS</a></li>
+							<li><a href="contact.html">CONTACT US</a></li>
+							<li>
+								<div class="dropdown">
+									<a href="user.html">USER<i class="fas fa-caret-down user-crt"></i></a>
+									<div class="dropdown-content">
+										<a href="reg.html" class="reg-log">REGISTER</a>
+										<a href="login.html" class="reg-log">LOG IN</a>
+									</div>
+								</div>
+							</li>
+							<li><i class="fas fa-shopping-cart" id="cart" data-toggle="modal"
+									data-target="#myModal"></i></li>
+							<div class="modal fade" id="myModal">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="bg-modal">
+										<div class="modal-content">
+											<div class="close" data-dismiss="modal" aria-label="Close"><i
+													class="fas fa-times"></i></div>
+											<h4 class="modal-h4">YOUR SHOPPING CART IS EMPTY.</h4>
+											<button class="cart-btn">GO TO THE SHOP</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<li>
+								<div class="s-box">
+									<input type="text" name="search" placeholder="search">
+									<button class="icn-btn"><i class="fa fa-search"></i></button>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- navigation -->
+
+
+	<!-- main area -->
+	<div class="container-fluid">
+		<div class="row">
+			<div id="reg">
+				<h1 class="reg-h1">REGISTER</h1>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+		<div class="mail-cap">Email*</div><input type="email" name="email" placeholder="" class="mail" />
+		<div class="pswrd-cap">Password*</div><input type="password" name="password" placeholder="" class="pswrd" /><div class="frm-desc">Enter Password</div>
+		<input type="password" name="password" placeholder="" class="con-pswrd"  /><div class="frm-desc">Confirm Password</div>
+		<h3 class="upld-cap">Upload Your SSC Registration Card or Certificate: *</h3>
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="file is-boxed">
+					<label class="file-label">
+					  <input class="file-photo" type="file" name="resume">
+					  <span class="file-cta">
+					  <span class="file-icon">
+						<i class="fas fa-upload"></i>
+					  </span><br>
+					  <span class="file-label">
+					   <h4 class="file-h4"> Drop a file here or click to upload</h4>
+					   <p class="file-p"> Maximum upload size: 268.44MB</p>
+					  </span>
+					  </span>
+					</label>
+					</div>
+			</div>
+		</div>
+		  <input type="submit" value="Submit" class="sbmt" />
+				<hr>
+			</div>
+			<div class="col-lg-4  lg-in">
+				<div class="r-part">
+					<form class="example" action="action">
+						<input type="text" placeholder="Search.." name="search">
+						<button type="submit"><i class="fa fa-search"></i></button>
+					  </form>
+				</div>
+				<div class="r-post">
+					<h5>RECENT POST</h5>
+					<a href=""><p>GONE TO GHANA – VOLUNTEERING IN AFRICA</p></a>
+					<hr>
+					<a href=""><p>RUN IT FORWARD – OFFICIAL CHARITY</p></a>
+					<hr>
+					<a href=""><p>EDUCATION OF CHILDREN IN TIME OF CRISIS</p></a>
+					<hr>
+					<a href=""><p>FAMOUS QUOTES ABOUT GIVING</p></a>
+					<hr>
+					<a href=""><p>THE CHILDREN’S FAMILY TRUST</p></a>
+					<hr>
+				</div>
+				<div class="comment">
+					<h5>RECENT COMMENTS</h5>
+				</div>
+				<div class="archive">
+					<h5>ARCHIVES</h5>
+					<p>JULY 2015</p>
+					<hr>
+				</div>
+				<div class="categori">
+					<h5>CATEGORIES</h5>
+					<a href=""><p>CHARITY</p></a>
+					<hr>
+					<a href=""><p>EDUCATION</p></a>
+					<hr>
+					<a href=""><p>FAMILY</p></a>
+					<hr>
+					<a href=""><p>VOLUNTEERS</p></a>
+					<hr>
+				</div>
+				<div class="meta">
+					<h5>META</h5>
+					<a href=""><p>LOG IN</p></a>
+					<hr>
+					<a href=""><p>ENTRIES RSS</p></a>
+					<hr>
+					<a href=""><p>COMMENT RSS</p></a>
+					<hr>
+					<a href=""><p>WORDPRESS.ORG</p></a>
+					<hr>
+				</div>
+				<div class="recent">
+					<h5>RECENT POST</h5>
+					<div class="row">
+						<div class="rp1">
+								<div class="col-lg-4 rp-img1">
+									<img src="img/25.jpg" alt="">
+								</div>
+								<div class="col-lg-8 sub-rp1">
+									<a href=""><p>GONE TO GHANA – VOLUNTEERING IN AFRICA</p></a>
+									<span><i class="fa fa-calendar-alt"></i> JULY 29, 2015</span>
+								</div>
+							</div>
+							
+						</div>
+						<hr>
+						<div class="row">
+					 <div class="rp2">
+						<div class="col-lg-4 rp-img2">
+							<img src="img/23.jpg" alt="">
+						</div>
+						<div class="col-lg-8 sub-rp2">
+							<a href=""><p>RUN IT FORWARD – OFFICIAL CHARITY</p></a>
+							<span><i class="fa fa-calendar-alt"></i> JULY 29, 2015</span>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="rp3">
+						<div class="col-lg-4 rp-img3">
+							<img src="img/22.jpg" alt="">
+						</div>
+						<div class="col-lg-8 sub-rp3">
+							<a href=""><p>GONE TO GHANA – VOLUNTEERING IN AFRICA</p></a>
+							<span><i class="fa fa-calendar-alt"></i> JULY 29, 2015</span>
+						</div>
+					</div> 
+				</div>
+			</div>
+			<div class="popular">
+				<h5>POPULAR POST</h5>
+				<div class="row">
+					<div class="rp1">
+							<div class="col-lg-4 rp-img1">
+								<img src="img/25.jpg" alt="">
+							</div>
+							<div class="col-lg-8 sub-rp1">
+								<a href=""><p>GONE TO GHANA – VOLUNTEERING IN AFRICA</p></a>
+								<span><i class="fa fa-calendar-alt"></i> JULY 29, 2015</span>
+							</div>
+						</div>
+						
+					</div>
+					<hr>
+					<div class="row">
+				 <div class="rp2">
+					<div class="col-lg-4 rp-img2">
+						<img src="img/23.jpg" alt="">
+					</div>
+					<div class="col-lg-8 sub-rp2">
+						<a href=""><p>FAMOUS QUOTES ABOUT GIVING</p></a>
+						<span><i class="fa fa-calendar-alt"></i> JULY 29, 2015</span>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="rp3">
+					<div class="col-lg-4 rp-img3">
+						<img src="img/22.jpg" alt="">
+					</div>
+					<div class="col-lg-8 sub-rp3">
+						<a href=""><p>GONE TO GHANA – VOLUNTEERING IN AFRICA</p></a>
+						<span><i class="fa fa-calendar-alt"></i> JULY 29, 2015</span>
+					</div>
+				</div> 
+			</div>
+		</div>
+		<div class="tag">
+			<h5>TAGS</h5>
+			<a href=""><button>AFRICA</button></a>
+			<a href=""><button>CHILDREN</button></a>
+			<a href=""><button>CRISIS</button></a>
+			<a href=""><button>GIVING</button></a>
+		</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer area  -->
+	<section id="endpart">
+		<div class="container">
+			<div class="endpart">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="heading1">
+							<h5 class="endpart-h5">ABOUT US</h5>
+							<p class="endpart-p">SSC 2002 & HSC 2004 Bangladesh is today more than just any other social
+								group on not only
+								Facebook but any social networking website in the world. Officially this is the largest
+								social networking group found on entire World Wide Web (WWW) which has been formed on
+								12th May 2019 with nationwide batch mates from Secondary School Certificate (SSC) of
+								2002 and Higher Secondary Certificate (HSC) of 2004 of Bangladesh. The primary idea was
+								to know each other, make friends, planning for meetings & hangouts in social occasions.
+								Today this group has grown beyond imagination with a vast worldwide network with the
+								sincere dedication and efforts of the enthusiastic group members. A platform beyond
+								religion, beyond casts and countries, full of cross cultural energetic youths ready to
+								come up with any sort of help required by a friend. With the vision -Friend for a friend
+								and together friends for the nation-, for social & environmental well being, this group
+								started blood donation activities in 15th February 2018 under the banner of Blood Bank
+								0204, and in the first year of operation, we have collected more than 1700 bags of blood
+								from 1000 members of this great group and donated to save many lives. However, the motto
+								is... No life losses for blood. “Warm Love” (Winter Clothes distribution program) a
+								social welfare program coordinated by this group is an example that significantly
+								indicates the affection and enthusiasm of group members towards humanity. In the year of
+								2017, the group “SSC 2002 & HSC 2004 Bangladesh” distributed more than 3000 blankets and
+								2000 winter clothes to the poverty-stricken people in rural areas of Kurigram,
+								Bangladesh. The program “Silent Smile” initiated in the year 2018 and 2019, has brought
+								significant contribution to the socially deprived children, especially for those who
+								cannot afford new dresses in religious festivals like EID & PUJA. We believe, if
+								children are our future then a little smile can bring a brighter future for us to
+								enlighten this society. Evermore, “Run for humanity’ (POST flood campaign) is another
+								social welfare program initiated in 2017 by this group to help the people who are
+								dramatically affected by natural disaster. Every year in Bangladesh, a large number of
+								rural population is affected by over rain, flood & land slide losing their households
+								ending up under the open sky without any food. Most of the time government aid takes too
+								long to reach those disastrous area which is not enough compared to the number of people
+								affected every year. ‘SSC 2002 & HSC 2004 Bangladesh’ distributed dry food and medicine
+								to the people who lost their homes and even lives of close ones in natural devastation.
+								It really is a matter of utmost pride for this group that we came so far only with the
+								sincere contribution of our group members and no fund has yet been raised from outside
+								this group. Being a part of this group really makes one feel proud and prestigious. We
+								are working with same dedication to turn this group into a global platform of peace,
+								friends and beyond all, well being of the humanity.We want to laugh , cry, play and
+								above all, unite and stand together. In every hard time, the harsh world might whisper
+								WHO CARES?? WE proudly SAY, YES WE DO, ALL THE TIME ALL THE WAY ... TOGETHER WITH SSC
+								2002 & HSC 2004 BANGLADESH FOUNDATION.</p>
+							<button class="endpart-btn">LEARN MORE</button>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="heading2">
+							<h5 class="endpart-h5">RECENT POSTS</h5>
+							<div class="link">
+								<a href="">
+									<p class="link-p">GONE TO GHANA- <br> VOLUNTEERING IN AFRICA</p>
+								</a>
+								<hr>
+								<a href="">
+									<p class="link-p">RUN IT FORWARD - OFFICIAL CHARITY</p>
+								</a>
+								<hr>
+								<a href="">
+									<p class="link-p">EDUCATION OF THE CHILDREN IN TIME OF <br> CRISIS </p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+					<div class="col-md-3">
+						<div class="heading3">
+							<h5 class="headings-h5">CONTACT US</h5>
+							<p class="headings-p">House 570 (2nd Floor),Road 04,Zakir Hossain Society,South
+								Khulshi,Chattogram -4225
+								<p class="headings-p">Phone: +880 1557 222222<br>
+									Email: <br> care@0204bangladesh.com</p>
+								<a href=""><i class="fab fa-facebook-f"></i></a>
+								<a href=""><i class="fab fa-youtube"></i></a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer area -->
+
+
+	<!-- copyright area -->
+	<section id="copyright">
+		<div class="container">
+			<div class="copyright">
+				<div class="row">
+					<div col-md-12>
+						<p class="copyright-p">© 2012 - 2019. All rights reserved | SSC 2002 & HSC 2004 Bangladesh
+							Foundation.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- copyright area -->
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/cart.js"></script>
+</body>
+
+</html>

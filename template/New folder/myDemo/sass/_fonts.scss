@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Slab:400,600,700&display=swap');
+
+$roboto:'Roboto Slab', serif;
+$opens:'Open Sans', sans-serif;
+
+h1{
+    @include fonts(36px,$roboto,600);
+}
+h2{
+    @include fonts(30px,$roboto,700);
+}
+h3{
+    @include fonts(24px,$opens,700);
+}
+h4{
+    @include fonts(18px,$roboto,400);
+}
+p{
+    @include fonts(16px,inherit,400);
+}
+span,
+a{
+    @include fonts(14px,$opens,inherit);
+}

@@ -1,0 +1,31 @@
+1. image size define //done
+2. site config 17no will be delete
+3. config will show category wise
+4. cause , event, merchantise different transction history//done
+5. all  currency will converted to bdt
+6. administration wrong manage spelling 
+7. vollunter search //done
+8. project module
+
+9. member date of birth //done
+10. address line will replace by police station/ thana and  form will be dropdown
+11. city form will be dropdown //done
+12. member, volunteer, adminitration photo size will be 2*2 inch//done
+12. SSC REGISTATION OR CERTIFICATE will be replace by Upload your SSC certificate//done
+13. sign in spell check //done
+14. profile edit button spell check and functionality //done
+15. member password reset text will be replace with NEW key word//done
+16. member profile new section REQUISITION FOR 1. PRVELIZE CARD 2.DONOR CARD
+17. REGISTER NOW and SIGN IN FULL hyper link //done
+18. member profile added new button BECOME LIFE MEMBER  and feature of LIFE MEMBER
+19. MEMBERSHIP INDICATION ON PROFILE 
+20. 9,10,11 WILL BE SAME FOR VOLUNTEER
+21. UPLOAD VOLUNTEER PHOTO will be replace by UPLOAD YOUR PHOTO //done
+22. PDF PRINT PAGE WILL BE LANDESCAPE
+23. ROLE -> ADMIN, EDITOR, MODERATOR
+24. VOLLUNTER OCCUPATION//done 
+25. MEMBER ID FOR EACH MEMBER AND SEQUENCE WILL BE (1) MID-(REG YEAR)-(REG MONTH)-(1001) (2) MID\2020\06-1002 //done
+26. OUR THEME TITLE will be replace by OUR SLOGAN //done
+     WHO CARES?? WE proudly SAY, YES WE DO, ALL THE TIME ALL THE WAY ... TOGETHER WE STAND, DIVIDED WE FALL. //done
+27. BOARD OF DIRECTOR SHOWING DESING CHANGE//done
+28. POWERD BY WILL REPLACE BY DESIGN AND DEVELOPED BY//done
